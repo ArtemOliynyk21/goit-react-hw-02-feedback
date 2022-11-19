@@ -14,7 +14,6 @@ export const FeedbackCard = styled.div`
   text-align: center;
   padding: 20px;
   background: #e8e8f8;
-  box-shadow: -20px 20px 0 -17px rgb(237 237 237),
-    20px -20px 0 -17px rgb(237 237 237), 20px 20px 0 -20px #390b5f,
-    0 0 0 2px #390b5f;
+  border: 1px solid purple;
+  border-radius: 5px
 `;

@@ -3,7 +3,8 @@ import styled from '@emotion/styled';
 export const Button = styled.button`
     margin-right: 10px;
     background-color: #ffff ; 
-    border: 1px solid purple;;
+    border: 1px solid purple;
+    border-radius: 5px;
     color: #000000;
     padding: 10px 25px;
     text-align: center;
@@ -11,7 +12,7 @@ export const Button = styled.button`
     font-size: 16px;
     transition-duration: 0.4s;
     &:hover {
-        background-color: #001180;
+        background-color: #58195b;
         color: #ffff;
         cursor: pointer;}
 `;
